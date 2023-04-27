@@ -1,0 +1,434 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+body {
+    margin: 0;
+    background-color: #E8EAF6;
+}
+
+html {
+    width: revert;
+}
+
+
+/* Disable ugly boxes around images*/
+
+a img {
+    border: 0px;
+}
+
+::-moz-selection {
+    color: #fff;
+}
+
+::selection {
+    color: #fff;
+}
+
+
+/*botão de expansao do drawer*/
+
+.mdl-layout__drawer-button {
+    display: none;
+}
+
+.doacao-header {
+    background-color: #3F51B5;
+    margin: 0 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.h1-logo {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    color: #E8EAF6;
+    font-size: 30px;
+    height: 28px;
+    width: 140px;
+}
+
+.drawer-logo {
+    color: #E8EAF6;
+    font-size: 30px;
+    height: 28px;
+    width: 140px;
+    z-index: 51;
+}
+
+.doacao-header {
+    overflow: visible;
+    color: white;
+}
+
+.doacao-header .material-icons {
+    color: #E8EAF6 !important;
+}
+
+.doacao-header .mdl-layout__drawer-button {
+    background: transparent;
+    color: #E8EAF6;
+}
+
+.doacao-header .mdl-navigation__link {
+    color: #E8EAF6;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.doacao-navigation-container {
+    /* Simple hack to make the overflow happen to the left instead... */
+    direction: rtl;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 500px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.doacao-navigation {
+    /* ... and now make sure the content is actually LTR */
+    direction: ltr;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 800px;
+}
+
+.doacao-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+}
+
+.doacao-navigation .mdl-navigation__link:hover {
+    border-bottom: 4px solid #E8EAF6;
+}
+
+.doacao-more-button {
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+}
+
+.doacao-drawer {
+    border-right: none;
+    z-index: 52;
+}
+
+.doacao-drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+}
+
+.doacao-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #757575;
+}
+
+.doacao-drawer span.mdl-navigation__link.mdl-navigation__link {
+    color: #5C6BC0;
+}
+
+.doacao-drawer .mdl-layout-title {
+    position: relative;
+    background: linear-gradient(to right, #5C6BC0, #3F51B5, #3949AB, #303F9F, #283593, #1A237E);
+    height: 160px;
+}
+
+.doacao-drawer {
+    position: absolute;
+    bottom: 16px;
+}
+
+.doacao-welcome-section {
+    position: relative;
+    height: 500px;
+    width: auto;
+}
+
+.logo-font {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    line-height: 1;
+    color: #767777;
+    font-weight: 500;
+}
+
+.doacao-slogan img {
+    padding-top: 2%;
+    height: 300px;
+}
+
+.doacao-sub-slogan {
+    font-size: 21px;
+    padding-top: 24px;
+}
+
+footer {
+    text-align: center;
+}
+
+.doacao-link {
+    text-decoration: none;
+    color: #3F51B5 !important;
+}
+
+.doacao-link:hover {
+    color: #3949AB !important;
+}
+
+.doacao-link .material-icons {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+}
+
+.doacao-alt-link {
+    text-decoration: none;
+    color: #64ffda !important;
+    font-size: 16px;
+}
+
+.doacao-alt-link:hover {
+    color: #00bfa5 !important;
+}
+
+.doacao-alt-link .material-icons {
+    position: relative;
+    top: 6px;
+}
+
+.doacao-find-now-section {
+    text-align: center;
+}
+
+.doacao-find-now-section-text {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 16px 0 16px;
+}
+
+.doacao-find-now-section-text p {
+    padding-top: 16px;
+}
+
+.doacao-find-now-section-image {
+    background: url(../img/books.jpg) center top no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.doacao-list-section {
+    padding: 1px 1px;
+    max-width: 1044px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.doacao-list-section .doacao-section-title {
+    margin-left: 12px;
+    padding-bottom: 24px;
+}
+
+.doacao-card-container .mdl-card__media {
+    overflow: hidden;
+    background: transparent;
+}
+
+.doacao-card-container .mdl-card__media img {
+    width: 100%;
+}
+
+.doacao-card-container .mdl-card__title {
+    background: transparent;
+    height: auto;
+}
+
+.doacao-card-container .mdl-card__title-text {
+    color: black;
+    height: auto;
+}
+
+.doacao-card-container .mdl-card__supporting-text {
+    height: auto;
+    color: black;
+    padding-bottom: 56px;
+}
+
+.doacao-card-container .mdl-card__actions {
+    position: absolute;
+    bottom: 0;
+}
+
+.doacao-card-container .mdl-card__actions a {
+    border-top: none;
+    font-size: 16px;
+}
+
+.doacao-footer {
+    background-color: #E8EAF6;
+    position: relative;
+}
+
+.doacao-footer a:hover {
+    color: #8bc34a;
+}
+
+.doacao-footer .mdl-mega-footer--top-section::after {
+    border-bottom: none;
+}
+
+.doacao-footer .mdl-mega-footer--middle-section::after {
+    border-bottom: none;
+}
+
+.doacao-footer .mdl-mega-footer--bottom-section {
+    position: relative;
+}
+
+.doacao-footer .mdl-mega-footer--bottom-section a {
+    margin-right: 2em;
+}
+
+.doacao-footer .mdl-mega-footer--right-section a .material-icons {
+    position: relative;
+    top: 6px;
+}
+
+.doacao-link-menu:hover {
+    cursor: pointer;
+}
+
+#painelDetalhes p {
+    font-size: 20px;
+    color: #000;
+}
+
+#painelDetalhes h2 {
+    color: #000;
+}
+
+.doacao-card-container {
+    margin-top: 3vw;
+}
+
+.footer-text {
+    color: #3F51B5 !important;
+    font-weight: bold;
+}
+
+.mapFrame {
+    position: fixed;
+    top: 3vh;
+    height: 80vh;
+    width: 28%;
+    float: left;
+}
+
+#section {
+    width: 70%;
+    float: right;
+    margin-bottom: 10vh;
+}
+
+.formSelect {
+    background: #FFF;
+    border: 1px;
+    appearance: button;
+}
+
+.formSelect:hover {
+    background: #FFF;
+}
+
+.formSelect:selection {
+    background: #FFF;
+}
+
+
+/**** Mobile layout ****/
+
+@media (max-width: 900px) {
+    .formSelect {
+        width: 95vw;
+    }
+    .doacao-card-container {
+        margin-top: 20vw;
+    }
+    .mapFrame {
+        display: none;
+    }
+    .mdl-layout__drawer-button {
+        display: inline;
+    }
+    .doacao-navigation-container {
+        display: none;
+    }
+    .doacao-title {
+        display: block !important;
+        position: absolute;
+        left: calc(50% - 70px);
+        margin-top: -12px;
+        transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
+     consecutive "+" operators in some cases. Therefore, we need to use both
+     here to cover all the bases. */
+    .android.doacao-search-box.is-focused~.doacao-mobile-title,
+    .doacao-search-box.is-focused+.doacao-navigation-container+.doacao-mobile-title {
+        opacity: 0;
+    }
+    /*
+  .doacao-more-button {
+    display: none;
+  }
+*/
+    .doacao-slogan {
+        font-size: 26px;
+        margin: 0 16px;
+        padding-top: 24px;
+    }
+    .doacao-sub-slogan {
+        font-size: 16px;
+        margin: 0 16px;
+        padding-top: 8px;
+    }
+    .doacao-footer .mdl-mega-footer--bottom-section {
+        display: none;
+    }
+    #section {
+        width: 100%;
+        float: none;
+    }
+    .doacao-footer {
+        position: relative;
+    }
+}
+
+#view-source {
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    z-index: 900;
+}
