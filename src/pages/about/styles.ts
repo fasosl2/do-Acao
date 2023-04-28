@@ -20,7 +20,6 @@ export const TextContent = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
     margin-bottom: 20px;
 
     color: #000000;

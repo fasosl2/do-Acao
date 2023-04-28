@@ -104,11 +104,10 @@ export const RightRowContainer = styled.div<ILeftMenuPanel>`
 
 export const RightMenuButon  = styled.img`
     padding: 10px;
-    display: absolute;
+    display: block;
     width: 25px;
     height: 28px;
     margin-left: auto;
-    width: auto;
     z-index: 6;
 
     @media screen and (min-width: 750px) {
@@ -135,7 +134,6 @@ export const Wrapper  = styled.div`
 export const Menu  = styled.a`
     font-family: 'Open Sans';
     font-style: normal;
-    font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
     margin-right: 12px;
@@ -145,7 +143,6 @@ export const Menu  = styled.a`
 export const MenuItem  = styled.a`
     font-family: 'Open Sans';
     font-style: normal;
-    font-size: 1.3em;
     color: #FFFFFF;
     padding: 0 15px;
     display: grid;

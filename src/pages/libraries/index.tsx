@@ -4,7 +4,10 @@ import { UserInfo } from '../../components/UserInfo';
 import { Header } from '../../components/Header';
 import { Container, Title, TitleHighlight, Column, GoogleMaps } from './styles';
 import { Row } from '../../styles/global';
+import { ILibrary } from '../../@types/ILibrary';
 const Libraries = () => {
+let libData = require('../../db.json');
+console.log(libData.libraries)
     return(<> 
         <Row>
             <Row>
@@ -14,26 +17,18 @@ const Libraries = () => {
             &zoom=12"/>
             </Row>
             <Row>
-            <Column flex={3}>
-                <Title>Feed</Title> 
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-            </Column>
-            <Column flex={1}>
+                <Title>Bibliotecas</Title>
+            <Container>
+                {libData.libraries.map((library: ILibrary) => (<Card {...library}/>))}
+            </Container>
+{/*             <Column flex={1}>
                 <TitleHighlight># RANKING TOP 5 DA SEMANA</TitleHighlight> 
                 <UserInfo percentual={80} nome="Flávio Oliveira" image='https://avatars.githubusercontent.com/u/66625225?v=4'/>
                 <UserInfo percentual={27} nome="Flávio Oliveira" image='https://avatars.githubusercontent.com/u/66625225?v=4'/>
                 <UserInfo percentual={89} nome="Flávio Oliveira" image='https://avatars.githubusercontent.com/u/66625225?v=4'/>
                 <UserInfo percentual={57} nome="Flávio Oliveira" image='https://avatars.githubusercontent.com/u/66625225?v=4'/>
                 <UserInfo percentual={12} nome="Flávio Oliveira" image='https://avatars.githubusercontent.com/u/66625225?v=4'/>
-            </Column>
+            </Column> */}
             </Row>
         </Row>
     </>)

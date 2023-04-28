@@ -10,7 +10,6 @@ export const ButtonContainer = styled.button<IButtonStyled>`
     padding: 5px 12px;
     min-width: 120px;
     width: 100%;
-    font-size: 1.3em;
     height: fit-content;
     
     &:hover {

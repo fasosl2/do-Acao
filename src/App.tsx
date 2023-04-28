@@ -13,6 +13,7 @@ import { Contact } from './pages/contact';
 import { Libraries } from './pages/libraries';
 import { NewUser } from './pages/newuser';
 import { Header } from './components/Header';
+import './styles/global.css'
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/feed" element={<Feed />} />
           <Route path="/newuser" element={<NewUser />} />
-          <Route path="*" element={<Home />} />
+          {/* <Route path="*" element={<Home />} /> */}
         </Routes>
     </Router>
   );

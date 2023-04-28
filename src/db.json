@@ -1,0 +1,167 @@
+{
+    "users": [
+        { "id": 1, "name": "Flávio", "email": "fasosl2@gmail.com", "senha": "123456" },
+        { "id": 1, "name": "João", "email": "joao@gmail.com", "senha": "123456" }
+    ],
+    "libraries": [{
+            "id": "ChIJ0R5IbuoYqwcRjWJyoMLW2Ss",
+            "name": "Universidade Católica de Pernambuco",
+            "address": "Rua do Prí­ncipe, 526 - Boa Vista, Recife",
+            "latitude": "-8.0546337",
+            "longitude": "-34.8873059"
+
+        },
+        {
+            "id": "ChIJ2S2II-AbqwcRP9Td3hw6jA4",
+            "name": "Biblioteca Central",
+            "address": "Recife",
+            "latitude": "-8.0510124",
+            "longitude": "-34.9513851"
+
+        },
+        {
+            "id": "ChIJ36yvlpUYqwcRQ59OOmQRxdw",
+            "name": "Biblioteca Pública do Estado de Pernambuco ",
+            "address": "Rua João Li­ra - Santo Amaro, Recife",
+            "latitude": "-8.0559817",
+            "longitude": "-34.8807281"
+
+        },
+        {
+            "id": "ChIJ4UNxpX4YqwcRQFTyLiNJrBM ",
+            "name": "Escola de Aprendizes - Marinheiros de Pernambuco",
+            "address": "Avenida Olinda, s/nº - Salgadinho, Olinda",
+            "latitude": "-8.0363652",
+            "longitude": "-34.8670161"
+
+        },
+        {
+            "id": "ChIJ5bsnchMZqwcRa60BQxyvym8",
+            "name": "Biblioteca Virtual",
+            "address": "Avenida Caxangá, S/n - Cordeiro, Recife",
+            "latitude": "-8.0469640",
+            "longitude": "-34.9264195"
+
+        },
+        {
+            "id": "ChIJ6SoUHdkYqwcRSJ-4i87IHAI",
+            "name": "Biblioteca",
+            "address": "Recife",
+            "latitude": "-8.0609519",
+            "longitude": "-34.9035839"
+
+        },
+        {
+            "id": "ChIJCWO80d4YqwcRcf6_HnmNQq8",
+            "name": "Escola Politécnica de Pernambuco",
+            "address": "Rua Benfica, 455 - Madalena, Recife",
+            "latitude": "-8.0601357",
+            "longitude": "-34.9035888"
+
+        },
+        {
+            "id": "ChIJD0IxqOMbqwcRq5s36T_uBNE",
+            "name": "UFPE - Área II",
+            "address": "Universidade Federal de Pernambuco - Avenida da Arquitetura - Cidade Universitária, Recife",
+            "latitude": "-8.0561661",
+            "longitude": "-34.9536095"
+
+        },
+        {
+            "id": "ChIJFdQJ1GYZqwcRUuoA7uLyfUk",
+            "name": "UFPE",
+            "address": "Travessa Professor Morães Rêgo, 1235 - Cidade Universitária, Recife",
+            "latitude": "-8.0522931",
+            "longitude": "-34.9451400"
+
+        },
+        {
+            "id": "ChIJG9NpVvYYqwcR7IXSC_FGUWw",
+            "name": "Etepam",
+            "address": "Avenida João de Barros, 1769 - Espinheiro, Recife",
+            "latitude": "-8.0392014",
+            "longitude": "-34.8924893"
+
+        },
+        {
+            "id": "ChIJgY-0NysaqwcRxKB8fv393Rg",
+            "name": "Municipal Divino Espirito Santo",
+            "address": "Viaduto Caxangá, 127 - Caxangá, Recife",
+            "latitude": "-8.0340348",
+            "longitude": "-34.9420369"
+
+        },
+        {
+            "id": "ChIJH2TiYGAZqwcR7Uq52aufoVE",
+            "name": "Biblioteca do CCS",
+            "address": "Recife",
+            "latitude": "-8.0487356",
+            "longitude": "-34.9479301"
+
+        },
+        {
+            "id": "ChIJI6izRbAZqwcRlonqjrsSd6c",
+            "name": "Biblioteca Popular de Casa Amarela",
+            "address": "Rua Major Afonso Leal - Casa Amarela, Recife",
+            "latitude": "-8.0244358",
+            "longitude": "-34.9155763"
+
+        },
+        {
+            "id": "ChIJI8ridOEbqwcRsTHIz7YJ67E",
+            "name": "UFPE - Centro de Tecnologia e Geociências / Escola de Engenharia de Pernambuco",
+            "address": "Av. da Arquitetura, s/n - Cidade Universitária, Recife",
+            "latitude": "-8.0534707",
+            "longitude": "-34.9545971"
+
+        },
+        {
+            "id": "ChIJn5fPnUEaqwcR1usMeLPHXxA",
+            "name": "Penarol Biblioteca Pública de Camaragibe",
+            "address": "Rua Severino Santos, 351 - Vila da Fabrica, Camaragibe",
+            "latitude": "-8.0128170",
+            "longitude": "-34.9772380"
+
+        },
+        {
+            "id": "ChIJNyV7xYoZqwcRHEoCX-gtITc",
+            "name": "Biblioteca Central UFRPE",
+            "address": "Universidade Federal Rural de Pernambuco - Rua Manuel de Medeiros, s/n - Dois Irmãos, Recife",
+            "latitude": "-8.0137558",
+            "longitude": "-34.9486202"
+
+        },
+        {
+            "id": "ChIJpTAOvLsYqwcRw8ieEtKemfA",
+            "name": "ESMAPE - Escola Superior da Magistratura de Pernambuco",
+            "address": "Rua Imperador Pedro Segundo, 221 - Santo Antônio, Recife",
+            "latitude": "-8.0629188",
+            "longitude": "-34.8765983"
+
+        },
+        {
+            "id": "ChIJQ7O3tQsYqwcRHSYVmJx8T8M",
+            "name": "Biblioteca Virtual",
+            "address": "Galeria Centro da Moda, Avenida Presidente Kenedy, 1001 - Peixinhos, Olinda",
+            "latitude": "-8.0180565",
+            "longitude": "-34.8654274"
+
+        },
+        {
+            "id": "ChIJTxFcct0YqwcRqCmSJUjTv-M",
+            "name": "Universidade de Pernambuco",
+            "address": "Avenida Governador Agamenon Magalhães, S/N - Santo Amaro, Recife",
+            "latitude": "-8.0440603",
+            "longitude": "-34.8861167"
+
+        },
+        {
+            "id": "ChIJw4PM7fweqwcRzX17XYxjfhw",
+            "name": "Universidade Salgado de Oliveira, Universo Recife Campus",
+            "address": "Avenida Marechal Mascarenhas de Morais, 2169 - Imbiribeira, Recife",
+            "latitude": "-8.1028791",
+            "longitude": "-34.9096827"
+
+        }
+    ]
+}
